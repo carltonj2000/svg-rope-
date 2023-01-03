@@ -1,0 +1,79 @@
+<div class="demo">
+  <svg class="demo-svg" viewBox="-40 -30 580 230"></svg>
+
+  <a target="_blank" href="https://muffinman.io/blog/draw-svg-rope-using-javascript/">Read the blog post &raquo;</a>
+  
+  <div class="demo-controls">
+    <div class="demo-controls-column">
+      <div class="demo-title">Options</div>
+      <label class="demo-label">
+        <input class="demo-checkbox-animate" type="checkbox" checked />
+        Animate
+      </label>
+      <div class="demo-control">
+        <label for="demo-step">Segment width</label>
+        <span class="demo-value"></span>
+        <input data-key="step" type="range" min="3" max="50" step="1" value="20" id="demo-step" />
+      </div>
+      <div class="demo-control">
+        <label for="demo-thickness">Rope thickness</label>
+        <span class="demo-value"></span>
+        <input data-key="thickness" type="range" min="3" max="50" step="1" value="40" id="demo-thickness" />
+      </div>
+      <div class="demo-control">
+        <label for="demo-angle">Skew angle</label>
+        <span class="demo-value"></span>
+        <input data-key="angle" type="range" min="0" max="90" step="1" value="45" id="demo-angle" />
+      </div>
+    </div>
+    <div class="demo-controls-column">
+      <div class="demo-title">Render</div>
+      <label class="demo-label">
+        <input data-key="path" class="demo-checkbox" type="checkbox" />
+        Path
+      </label>
+      <label class="demo-label">
+        <input data-key="points" class="demo-checkbox" type="checkbox" />
+        Points
+      </label>
+      <label class="demo-label">
+        <input data-key="normals" class="demo-checkbox" type="checkbox" />
+        Normals
+      </label>
+      <label class="demo-label">
+        <input data-key="polygons" class="demo-checkbox" type="checkbox" />
+        Square-ish segments
+      </label>
+      <label class="demo-label">
+        <input data-key="polygonsRounded" class="demo-checkbox" type="checkbox" />
+        Rounded square-ish segments
+      </label>
+      <label class="demo-label">
+        <input data-key="segments" class="demo-checkbox" type="checkbox" />
+        Segments
+      </label>
+      <label class="demo-label">
+        <input data-key="rope" class="demo-checkbox" type="checkbox" checked />Rounded segments (finished rope)
+      </label>
+    </div>
+    <div class="demo-controls-column">
+      <div class="demo-title">Colors</div>
+      <label class="demo-label">
+        <input class="demo-radio" type="radio" name="demo-colors" value="transparent" />
+        Transparent
+      </label>
+      <label class="demo-label">
+        <input class="demo-radio" type="radio" name="demo-colors" value="white" />
+        White
+      </label>
+      <label class="demo-label">
+        <input class="demo-radio" type="radio" checked name="demo-colors" value="natural" />
+        Natural
+      </label>
+      <label class="demo-label">
+        <input class="demo-radio" type="radio" name="demo-colors" value="rainbow" />
+        Rainbow
+      </label>
+    </div>
+  </div>
+</div>
